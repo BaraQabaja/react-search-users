@@ -1,0 +1,67 @@
+
+
+.followers-container
+{
+  
+ background-color: rgb(255, 255, 255);
+  position: relative;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding-left: 2rem;
+  height:18rem;
+ 
+}
+@media (max-width:800px)
+{
+
+    .followers-container{width:100%;}
+    
+}
+.followers-container::before
+{
+    display: grid;
+    place-items: center;
+    font-size: 1.3rem;
+ background-color: rgb(255, 255, 255);
+content: "followers";
+width: 100px;
+height: 50px;
+position: absolute;
+top:-50px;
+left:0px;
+color:gray;
+}
+
+
+.person img
+{
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+    object-fit:contain
+}
+
+
+.person-container
+{
+    display:flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding:10px;
+    gap:1.3rem;
+}
+.person{
+    display: flex;
+    gap: 1rem;
+}
+
+.follower-data a
+{
+color:gray;
+cursor: pointer;
+text-decoration: none;
+
+}
+

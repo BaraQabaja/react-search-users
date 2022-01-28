@@ -1,0 +1,40 @@
+.wrapper
+{
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+}
+.container
+{
+    display: flex;
+  align-items: center;
+    flex-direction: column;
+    gap:20px
+}
+.ErrorTitle
+{
+    text-align: center;
+    font-size: 10rem;
+}
+.ErrorMessage
+{
+    font-size: 2rem;
+    text-align: center;
+}
+.BackHomeBtn
+{
+    margin-top: 40px;
+    width:10rem;
+    height:3rem;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(84, 187, 187);
+border-radius: 5px;
+font-size: 1.2rem;
+font-weight: 800;
+}

@@ -1,0 +1,25 @@
+
+.main-container
+{
+    width:75vw;
+   display: grid;
+  margin: 4rem auto;
+  margin-top: 6rem;
+   gap:2rem;
+
+}
+
+
+
+
+
+
+@media (min-width:1000px)
+{
+    .main-container
+{
+  grid-template-columns: 1fr 1fr;
+
+}
+}
+

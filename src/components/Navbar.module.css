@@ -1,0 +1,49 @@
+.Navbar
+{
+   
+    background-color:rgba(255, 255, 255, 0.938);
+    display: grid;
+    position: fixed;
+    top:0rem;
+    width:100vw;
+    height:4rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    place-items: center;
+    z-index: 9999;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    align-items: center;
+    
+}
+.Navbar h4{
+    font-weight: 400;
+}
+.avatar
+{
+    overflow: hidden;
+    
+    width:2.5rem;
+    object-fit: contain;
+    
+}
+.user-img
+{
+     border-radius: 50%;
+     overflow: hidden;
+    
+     width:2.5rem;
+     object-fit: contain; 
+}
+.logout-btn
+{
+    width: 8rem;
+    height: 1.8rem;
+    color:gray;
+    font-size:1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+    background-color: white;
+}

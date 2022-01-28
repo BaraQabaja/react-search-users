@@ -1,0 +1,57 @@
+.section-center
+{
+   
+    display: grid;
+    justify-items: center;
+ gap:2rem;
+  
+ width: 90vw;
+ margin: 0 auto;
+ max-width: 1170px;
+}
+
+@media (min-width:800px)
+{.section-center
+    {
+    grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 992px) {
+    .section-center {
+      width: 95vw;
+    }
+  }
+@media (min-width:1200px)
+{.section-center
+    {
+    grid-template-columns: 2fr 3fr;
+    }
+}
+
+
+.section-center div
+{
+    width: 100% !important;
+    
+}
+
+
+.section-center div
+{
+    width: 100% !important;
+}
+
+.section-center svg
+{
+    width: 100% !important;
+    
+}
+
+
+.section
+{
+    padding: 1rem 0;
+    position: relative;
+}
+
+

@@ -1,0 +1,135 @@
+.user-container
+{
+  
+ background-color: rgb(255, 255, 255);
+  position: relative;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding-left: 2rem;
+  height:18rem;
+  gap: .8rem;
+ 
+}
+
+@media (max-width:800px)
+{
+
+    .user-container{width:100%;}
+    
+}
+
+.user-container::before
+{
+    display: grid;
+    place-items: center;
+    font-size: 1.3rem;
+ background-color: rgb(255, 255, 255);
+content: "user";
+width: 100px;
+height: 50px;
+position: absolute;
+top:-50px;
+left:0px;
+color:gray;
+}
+.leftSide
+{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.nameInfo
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.nameInfo h2
+{
+    margin-left: .5rem;
+}
+.nameInfo h4
+{ color:gray;
+    margin-left: .4rem;
+}
+.leftSide img
+{
+
+    width:4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.header
+{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follow-btn
+{
+    text-transform: capitalize;
+    border-radius: 20px;
+    width:90px;
+    height:35px;
+    margin-right: 2rem;
+    color:rgb(30, 149, 165);
+    border:1px solid rgb(30, 149, 165);
+    font-size: 1rem;
+    transition:  all .4s ease .1s;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.follow-btn:hover
+{
+  
+    color:rgb(255, 255, 255);
+    border:1px solid rgb(30, 149, 165);
+    background-color:rgb(30, 149, 165); 
+   
+}
+
+.bio{
+font-size: 1rem;
+margin-bottom: 1rem;
+color:rgb(117, 115, 115);
+overflow-y: auto;
+}
+
+.item
+{
+    margin-bottom: .5rem;
+}
+.icon
+{
+    
+    color:#617D98;
+    font-size:1.1rem;
+    object-fit:contain;
+}
+.blog
+{
+    color:#438dd3;
+    margin-left: .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+.loading-img
+{
+z-index: 99999;
+
+display: grid;
+place-items: center;
+width: 15vw;
+}
+.loading-container
+{
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.main-for-loading
+{
+    display: grid;
+
+}
